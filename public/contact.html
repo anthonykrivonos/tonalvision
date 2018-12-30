@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Contact tonalVISION</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <script type="text/javascript" src="tv.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css?<?php echo time(); ?>">
+    </head>
+    <body onload="initialize();" style="overflow-x:hidden; color:black; background:white;">
+        <nav class="navbar navbar-default navbar-fixed-top color-black .nonselectable container-fullwidth options" style="background:black;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="logo.jpg" style="height:50px; margin-top:-15px; margin-left:-15px; margin-right:-10px"/></a>
+                </div>
+                <ul id="navbar" class="nav navbar-nav navbar-collapse collapse options container-fullwidth">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-collapse navbar-right collapse">
+                    <li style="text-align:right; line-height:12pt; margin-top:14px; margin-right:-3px; color:gray;"><h3 style="margin-top:10px; margin-bottom:0px; color:white !important; font-size:8pt;">Founded by </h3>Anthony Krivonos</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid" style="font-family:stellar-regular;">
+
+            <div class="container-fluid">
+                <div class="row" style="padding-top:50px">
+                    <div class="col-sm-12 servicetitle striped">
+                        <h3>tonalvision</h3>
+                        <h1>contact</h1>
+                    </div>
+                <div class="col-sm-12">
+                    <p class="aboutp">
+                        <div class="col-xs-8">
+                              <br/><br/>
+                              <br/><br/>
+                              <h3 style="text-align: center; margin-top:0px;">
+                                    The message service is not currently working <br/> Please send all inquiries to: <br/><br/><a style="color: gray !important;" href="mailto:tonalvision.ig@gmail.com">tonalvision.ig@gmail.com</a>
+                              </h3>
+                        </div>
+                        <!-- <form action="#" method="post" id="appointment">
+                            <div class="col-xs-8">
+                                <h3 id="contacttype" style="text-align: center; margin-top:0px;">
+                                    Inquiries and Estimates
+                                </h3>
+                                <div class="col-md-6 col-sm-12 somepadding">
+                                    <input style="border-radius:0" id="name" name="name" autocomplete="off" type="text" placeholder="Name" class="form-control box">
+                                </div>
+                                <div class="col-md-6 col-sm-12 somepadding">
+                                    <input style="border-radius:0" id="from" name="from" type="email" placeholder="Email" class="form-control box">
+                                </div>
+                                <div class="col-md-12 col-sm-12 somepadding">
+                                    <input style="border-radius:0" id="subject" name="subject" type="text" placeholder="Subject" class="form-control box">
+                                </div>
+                                <select id="service" name="service" class="col-md-12 col-sm-12">
+                                    <option value="" style="color:#9C9C9C !important;" disabled selected> Select Your Service</option>
+                                    <option value="General Question"> Ask a General Question</option>
+                                    <option value="Work as a Model"> Apply to Work as a Model</option>
+                                    <option value="Get Estimate"> Get an Estimate Without Scheduling</option>
+                                    <option value="Photoshoot Appointment"> Schedule a Photoshoot Appointment</option>
+                                    <option value="Short Notice Photoshoot"> Schedule a Short Notice Photoshoot</option>
+                                </select>
+                                <div class="col-md-12 col-sm-12 somepadding">
+                                    <textarea style="border-radius:0; resize:vertical;" id="content" name="content" placeholder="Message/Details" style="resize: vertical;" class="form-control box" rows="5"></textarea>
+                                </div>
+                                <div class="col-md-8 col-sm-8 somepadding" style="margin-top:5px; padding-right:20px !important; font-size:7pt;">
+                                    <p style="display:inline;">*By clicking <h1 style="display:inline; font-size:7pt;" id="sendemail" onclick="send()">Send Message</h1>, you are ensuring a future agreement to the <i>Use of Photography and Rights to Image Files</i> and <i>Model Agreement</i> contracts.</p>
+                                </div>
+                                <div class="error"></div>
+                                <div class="col-md-4 col-sm-4 somepadding" style="margin-top:15px;">
+                                    <input style="border-radius:0px; color:black; font-family:stellar-regular; padding-top:8px !important;" type="submit" value="Send Message*" class="form-control box">
+                                </div>
+                            </div>
+                        </form> -->
+                        <div class="verticalLine col-xs-4">
+                            <h3 style="margin-top:0px;margin-bottom:2px;">direct</h3>
+                            <a style="color:black !important; font-family: stellar-regular" href="tel:502-822-6534">502-82-BOKEH</a><br/>
+                            Basic Info: <a style="color:black !important; font-family: stellar-regular" href="mailto:info@tonal.vision?Subject=Basic%20Info">info@tonal.vision</a><br/>
+                            Estimates: <a style="color:black !important; font-family: stellar-regular" href="mailto:pricing@tonal.vision?Subject=Estimate">pricing@tonal.vision</a><br/>
+
+                            <h3 style="margin-top:4px;margin-bottom:2px;">Social Media</h3>
+                            Instagram: <a style="color:black !important; font-family: stellar-regular" target="_blank" href="http://instagram.com/tonalvision">tonalvision</a><br/>
+                            500px: <a style="color:black !important; font-family: stellar-regular" target="_blank" href="http://500px.com/tonalvision">Anthony Krivonos</a><br/>
+
+                            <h3 style="margin-top:4px;margin-bottom:2px;">Estimate Calculator</h3>
+                            <div>
+                                <td># Photoshoots:</td>
+                                <td><input id="numshoots" type="text" style="width: 22px; height:20px; margin-bottom:3px;" maxlength="2" placeholder="00"/></td>
+                            </div>
+                            <div>
+                                <td># Days Until Shoot:</td>
+                                <td><input id="numdays" type="text" style="width: 28px; height:20px; margin-bottom:3px;" maxlength="3" placeholder="000"/></td>
+                            </div>
+                            <div>
+                                <td># Photos Needed:</td>
+                                <td><input id="numphotos" type="text" style="width: 28px; height:20px; margin-bottom:3px;" maxlength="3" placeholder="000"/></td>
+                            </div>
+                            <div>
+                                <td># Retouches:</td>
+                                <td><input id="numretouches" type="text" style="width: 28px; height:20px; margin-bottom:3px;" maxlength="3" placeholder="000"/></td>
+                            </div>
+                            <div>
+                                <td># Prints:</td>
+                                <td><input id="numprints" type="text" style="width: 28px; height:20px; margin-bottom:3px;" maxlength="3" placeholder="000"/></td>
+                            </div>
+                            <div>
+                                <div id="calcval" style="margin-top:0px" class="h3">$000.00</div>
+                                <button type="button" onclick="calculateEstimate();" class="calcbutton" style="margin-top:-5px; margin-bottom:8px;background:white; padding-top:5px;">Calculate*</button>
+                            </div>
+                            <div style="display:block; font-size:7pt;margin-top:5px;">
+                                *The estimated value is simply an approximation, and the total cost of any product or service may be greater or less than the value displayed.
+                            </div>
+                        </div>
+                        <br/><br/>
+                    </p>
+                </div>
+            </div><br/>
+        </div>
+        <footer class="footer" style="position: absolute;overflow-x:hidden;">
+            <div class="center smalltext container-fluid" style="z-index: 1; text-align:center; color:white !important;">
+                <form style="display:inline;" method="get" target="_blank" action="rightstoimages.pdf">
+                    <button type="submit" style="border:none; color:black !important; background:none;font-size:9pt;"><i class="gray pointer">Use of Photography and Rights to Image Files</i></button>
+                </form>
+                <form style="display:inline;" method="get" target="_blank" action="modelagreement.pdf">
+                    <button type="submit" style="border:none; color:black !important; background:none;font-size:9pt;"><i class="gray pointer">Model Agreement</i></button>
+                </form>
+                <br/>
+                <span style="color:black !important;">tonalVISION&trade; Photography 2018</span>
+            </div>
+        </footer>
+    </body>
+</html>

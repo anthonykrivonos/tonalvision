@@ -1,0 +1,865 @@
+@media (min-width: 0em)
+{
+      .captioncenter > h3
+      {
+            font-size:45pt;
+      }
+
+      .captioncenter > p
+      {
+            margin-top:-20px;
+            font-size:12pt;
+            font-family:nexa-light;
+      }
+
+      .aboutp
+      {
+            font-size:10pt;
+            font-family:stellar-regular;
+      }
+
+      .tvcap
+      {
+            margin-top:90px;
+            font-size: 20pt;
+            text-align:center;
+      }
+
+      .contact
+      {
+            margin-top:-22px;
+            text-align:center;
+            font-size:60pt;
+            margin-bottom:50px;
+      }
+
+      .infooverlay
+      {
+            position:fixed;
+            left:20%;
+            right:20%;
+            top: calc(30%);
+            bottom:calc(70% + 50px);
+            z-index:3;
+      }
+
+      .infooverlay > h1
+      {
+            font-size:40pt;
+      }
+
+      .infooverlay > h3
+      {
+            color:white !important;
+            margin-left:-95px;
+            font-size:18pt;
+            margin-bottom:-10px;
+            text-align: center;
+      }
+
+      .infooverlay > div
+      {
+            text-align: center;
+            color:white;
+            font-family: hoefler;
+            font-size:18pt;
+            cursor:hand;
+            cursor:pointer;
+            margin-top:-10px;
+      }
+
+      .servicetitle
+      {
+            text-align:center;
+            margin-top:20px;
+      }
+
+      .servicetitle > h3
+      {
+            font-size:20pt;
+            margin-left:-130px;
+      }
+
+      .servicetitle > h1
+      {
+            font-size: 60pt;
+            margin-top:-17pt;
+      }
+
+      .verticalLine
+      {
+            font-size:9pt;
+      }
+
+      .verticalLine > h3
+      {
+            font-size:14pt;
+      }
+
+      #calcval
+      {
+            font-size:12pt;
+      }
+
+      .calcbutton
+      {
+            font-size:9pt;
+      }
+
+      td
+      {
+            font-size:4pt;
+      }
+
+      #titletext
+      {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            margin-left: -150px;
+            margin-top: -80px;
+      }
+
+      #titletext > img
+      {
+            width: 300px;
+            height: 160px;
+      }
+}
+
+@media (min-width: 48em)
+{
+      .captioncenter > h3
+      {
+            font-size:80px;
+      }
+
+      .captioncenter > p
+      {
+            margin-top:-20px;
+            font-size:14pt;
+            font-family:nexa-light;
+      }
+
+      .aboutp
+      {
+            font-size:14pt;
+            font-family:stellar-regular;
+      }
+
+      .tvcap
+      {
+            margin-top:90px;
+            font-size: 25pt;
+            text-align:center;
+      }
+
+      .contact
+      {
+            margin-top:-22px;
+            text-align:center;
+            font-size:80pt;
+            margin-bottom:50px;
+      }
+
+      .infooverlay
+      {
+            position:fixed;
+            left:20%;
+            right:20%;
+            top: calc(30%);
+            bottom:calc(70% + 50px);
+            z-index:3;
+      }
+
+      .infooverlay > h1
+      {
+            font-size:80pt;
+      }
+
+      .infooverlay > h3
+      {
+            color:white !important;
+            margin-left:-255px;
+            font-size:26pt;
+            margin-bottom:-18px;
+            text-align: center;
+      }
+
+      .infooverlay > div
+      {
+            text-align: center;
+            color:white;
+            font-family: hoefler;
+            font-size:28pt;
+            cursor:hand;
+            cursor:pointer;
+            margin-top:-10px;
+      }
+
+      .servicetitle
+      {
+            text-align:center;
+      }
+
+      .servicetitle > h3
+      {
+            font-size:26pt;
+            margin-left:-170px;
+      }
+
+      .servicetitle > h1
+      {
+            font-size: 80pt;
+            margin-top:-21pt;
+      }
+
+      #titletext
+      {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            margin-left: -250px;
+            margin-top: -180px;
+      }
+
+      #titletext > img
+      {
+            width: 500px;
+            height: 270px;
+      }
+}
+
+@media (min-width: 70em)
+{
+      .captioncenter > h3
+      {
+            font-size:120px;
+            margin-top:-10px;
+      }
+
+      .captioncenter > p
+      {
+            margin-top:-30px;
+            font-size:20pt;
+            font-family:nexa-light;
+      }
+
+      #aboutp
+      {
+            font-size:16pt;
+            font-family:stellar-regular;
+      }
+
+      .tvcap
+      {
+            margin-top:90px;
+            font-size: 30pt;
+            text-align:center;
+      }
+
+      .contact
+      {
+            margin-top:-22px;
+            text-align:center;
+            font-size:100pt;
+            margin-bottom:50px;
+      }
+
+      .infooverlay
+      {
+            position:fixed;
+            left:20%;
+            right:20%;
+            top: calc(30%);
+            bottom:calc(70% + 50px);
+            z-index:3;
+      }
+
+      .infooverlay > h1
+      {
+            font-size:100pt;
+      }
+
+      .infooverlay > h3
+      {
+            color:white !important;
+            margin-left:-310px;
+            font-size:32pt;
+            margin-bottom:-18px;
+            text-align: center;
+      }
+
+      .infooverlay > div
+      {
+            text-align: center;
+            color:white;
+            font-family: hoefler;
+            font-size:28pt;
+            cursor:hand;
+            cursor:pointer;
+            margin-top:-10px;
+      }
+
+      .servicetitle
+      {
+            text-align:center;
+      }
+
+      .servicetitle > h3
+      {
+            font-size:32pt;
+            margin-left:-215px;
+      }
+
+      .servicetitle > h1
+      {
+            font-size:100pt;
+            margin-top:-23pt;
+      }
+
+      #titletext
+      {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            margin-left: -350px;
+            margin-top: -190px;
+      }
+
+      #titletext > img
+      {
+            width: 700px;
+            height: 380px;
+      }
+}
+
+@font-face
+{
+      font-family: acid;
+      src: url(fonts/acid.ttf);
+}
+
+@font-face
+{
+      font-family: adler;
+      src: url(fonts/adler.ttf);
+}
+
+@font-face
+{
+      font-family: cornerstone;
+      src: url(fonts/cornerstone.ttf);
+}
+
+@font-face
+{
+      font-family: debby;
+      src: url(fonts/debby.otf);
+}
+
+@font-face
+{
+      font-family: nexa-bold;
+      src: url(fonts/nexa-bold.otf);
+}
+
+@font-face
+{
+      font-family: nexa-light;
+      src: url(fonts/nexa-light.otf);
+}
+
+@font-face
+{
+      font-family: stellar-bold;
+      src: url(fonts/stellar-bold.otf);
+}
+
+@font-face
+{
+      font-family: stellar-light;
+      src: url(fonts/stellar-light.otf);
+}
+
+@font-face
+{
+      font-family: stellar-regular;
+      src: url(fonts/stellar-regular.otf);
+}
+
+@font-face
+{
+      font-family: hoefler;
+      src: url(fonts/hoefler.ttf);
+}
+
+@font-face
+{
+      font-family: impact;
+      src: url(fonts/impact.ttf);
+}
+
+body
+{
+      background:black;
+      overflow-y: auto;
+}
+
+.padding-0
+{
+      padding: 0;
+}
+
+.navbar, .nav, .dropdown
+{
+      background:black;
+      color:white !important;
+      font-family:impact;
+      text-transform: uppercase;
+      overflow-x: hidden;
+      z-index:3;
+}
+
+li.nav a:hover
+{
+      color: white !important;
+}
+
+.textover
+{
+      position:absolute;
+}
+
+.cover
+{
+      min-width:1200px;
+      min-height: 100vh;
+}
+
+.copyright
+{
+      font-family:nexa-bold;
+      font-size: 10pt;
+      margin-top:12px;
+      margin-right: -5px;
+      text-align:right;
+      line-height:14px;
+}
+
+.captioncenter
+{
+      left: 0;
+      position:absolute;
+      text-align:center;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+}
+
+.nonselectable
+{
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor:default;
+}
+
+.full
+{
+      max-height:100vh;
+}
+
+.aboutimg
+{
+      width:100%;
+}
+
+.center
+{
+      text-align:center;
+}
+
+.linkimg
+{
+      width:40%;
+      margin:auto;
+      margin-top:10px;
+      margin-bottom:10px;
+}
+
+.clickable
+{
+      cursor:hand;
+      cursor:pointer;
+      transition: 0.3s;
+}
+
+.clickable:hover
+{
+      cursor:hand;
+      cursor:pointer;
+      transform: scale(1.05);
+}
+
+.bigtext
+{
+      font-size:30pt;
+}
+
+.mediumtext
+{
+      font-size:14pt;
+}
+
+.smalltext
+{
+      font-size:8pt;
+}
+
+.pointer
+{
+      cursor: pointer;
+      cursor: hand;
+}
+
+.nopadding
+{
+      padding: 0 !important;
+      margin: 0 !important;
+}
+
+.somepadding
+{
+      padding: 2px !important;
+      margin: 2px !important;
+      padding-left: -1px !important;
+      margin-left: 0px !important;
+      padding-right: 0px !important;
+      margin-right: 0px !important;
+}
+
+.box
+{
+      border-color: #333333;
+}
+
+.sideimgpar
+{
+      position:relative;
+}
+
+.sideimg
+{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.verticalLine
+{
+      border-left: 2px solid gray;
+      height:100%;
+}
+
+.color-black
+{
+      background:black;
+      border: 0px;
+}
+
+li, a
+{
+      color:white !important;
+      letter-spacing: 0.8px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+      background:white;
+      color:black !important;
+      font-family:hoefler;
+      text-transform: lowercase;
+      font-size:14pt;
+}
+
+h1
+{
+      font-family:impact;
+      color:black !important;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+}
+
+h3, .h3div
+{
+      color:black !important;
+      font-family:hoefler;
+      text-transform: lowercase;
+      font-size:20pt;
+      margin-top:-10px;
+}
+
+.h3div
+{
+      color:white !important;
+      cursor:hand;
+      cursor:pointer;
+}
+
+input, textarea, .calcbutton, select
+{
+      border: 1px solid black;
+      border-radius:0;
+      -webkit-border-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar
+{
+      background-color: black !important;
+      color:white;
+      border-radius:0px;
+      border: 0px;
+}
+
+.icon-bar
+{
+      background-color:white !important;
+}
+
+.glyphicon
+{
+      font-size: .5em;
+}
+
+select
+{
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: list-menu;
+      width: calc(100%-2px) !important;
+      margin: 2px !important;
+      left: 0px !important;
+      background: white;
+      font-size: 15px;
+      line-height: 1;
+      height: 34px;
+      width:calc(100% - 2px) !important;
+      padding-left: 12px !important;
+      display:inline;
+}
+
+.collapse
+{
+      margin-top:0px;
+}
+
+.navbar-collapse
+{
+      margin-top:0px;
+      border: none;
+}
+
+#photos
+{
+      line-height: 0;
+      -webkit-column-count: 5;
+      -webkit-column-gap:   0px;
+      -moz-column-count:    5;
+      -moz-column-gap:      0px;
+      column-count:         5;
+      column-gap:           0px;
+      height:100%;
+      margin-top:50px;
+}
+
+#photos img
+{
+      width: 100% !important;
+      height: auto !important;
+}
+
+@media (max-width: 1200px)
+{
+      #photos
+      {
+            -moz-column-count:    4;
+            -webkit-column-count: 4;
+            column-count:         4;
+      }
+}
+@media (max-width: 1000px)
+{
+      #photos
+      {
+            -moz-column-count:    3;
+            -webkit-column-count: 3;
+            column-count:         3;
+      }
+}
+@media (max-width: 800px)
+{
+      #photos
+      {
+            -moz-column-count:    2;
+            -webkit-column-count: 2;
+            column-count:         2;
+      }
+}
+@media (max-width: 400px)
+{
+      #photos
+      {
+            -moz-column-count:    1;
+            -webkit-column-count: 1;
+            column-count:         1;
+      }
+}
+
+.photooverlay
+{
+      position:absolute;
+      z-index:2;
+      background:black;
+      color:black;
+      opacity:0.8;
+      width:100%;
+      height:100%;
+      position:fixed;
+}
+
+#bg, #bg2 {
+      position: fixed;
+      top: -50%;
+      left: -48%;
+      width: 200%;
+      height: 200%;
+}
+#bg2 {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+}
+
+#bg img
+{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      min-width: 55%;
+      min-height: 55%;
+      filter: blur(5px);
+      -webkit-filter: blur(5px);
+}
+
+#bg > div
+{
+      position:absolute;
+      z-index:2;
+      background:black;
+      opacity:0.3;
+      width:200%;
+      height:200%;
+      position:fixed;
+}
+
+footer
+{
+      width:90%;
+      left:5%;
+}
+
+td
+{
+      font-size:8pt;
+}
+
+.tvlogo
+{
+      margin:auto;
+}
+
+#gallery
+{
+      margin-top:50px;
+      width:calc(100%-20px) !important;
+      margin-left:10px;
+      margin-right:10px;
+}
+
+.picgroupname
+{
+      font-family:impact;
+      color:white;
+      font-size:30pt;
+      margin-bottom:-5px;
+}
+
+.picgroup
+{
+      width:100%;
+      border:1px white solid;
+      margin-top:10px;
+      padding:0px !important;
+      min-height:160px;
+}
+
+.subjectinfo
+{
+      width:40%;
+      border:1px white solid;
+      margin-top:10px;
+      float:left;
+      margin-right:1%;
+      padding:3px;
+      font-size:10pt;
+      font-family:stellar-regular;
+      color:white;
+}
+
+.piccollection
+{
+      width:59%;
+      border:1px white solid;
+      margin-top:10px;
+      float:right;
+}
+
+.subjectname
+{
+      font-family:hoefler;
+      text-transform: lowercase;
+      font-size:14pt;
+}
+
+.piccollection > img
+{
+      height:120px;
+      margin-bottom:5px;
+      margin-right:5px;
+
+}
+
+.services-bg {
+      height: 100%;
+      filter: blur(0px);
+      -webkit-filter: blur(0px);
+}
+
+.white {
+      color: white !important;
+}
