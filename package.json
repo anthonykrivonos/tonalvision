@@ -9,6 +9,7 @@
   "author": "Anthony Krivonos",
   "license": "ISC",
   "dependencies": {
-    "@sendgrid/mail": "^6.1.4"
+    "@sendgrid/mail": "^6.1.4",
+    "firebase-tools": "^7.7.0"
   }
 }
